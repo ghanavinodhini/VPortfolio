@@ -1,0 +1,45 @@
+
+.homepage {
+    background-color: rgb(219, 218, 216);
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(4, 54, 4);   
+}
+
+.homepage__aboutme {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
+}
+
+.homepage__aboutdetail {
+    padding-left: 20px;
+    text-align:justify;
+}
+
+.homepage__aboutdetail > p {
+    color:rgb(4, 54, 4);
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+.homepage__aboutimg >img {
+    height: 200px;
+    width: 200px;
+}
+
+.homepage__about {
+    display: flex;
+    justify-content:left;
+}
+
+.homepage__projects {
+    align-self: center;
+}
+
+.homepage__exp {
+    
+}

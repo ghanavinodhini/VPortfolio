@@ -1,0 +1,34 @@
+.projects {  
+    text-align: center;  
+    color:rgb(4, 54, 4);   
+}
+.projects > h1 {
+    color:rgb(4, 54, 4);    
+}
+
+.projects__tab {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.projects__tile {
+    border:2px solid rgb(4, 54, 4);
+    width: 30%;
+    border-radius: 10px;
+
+}
+.projects_tile:hover {
+    cursor: pointer;
+}
+.projects__tile >img {
+    width: 150px;
+    height: 150px;
+}
+.projects__tile > p {
+    padding-top: 15px;
+    font-size: 12px;
+    font-style: italic;
+}
