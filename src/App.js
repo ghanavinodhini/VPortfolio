@@ -1,22 +1,28 @@
-import NavBar from './navbar/Navbar';
+
+import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
+import Header from './app/header/Header';
+import Footer from './app/footer/Footer';
 import Homepage from "./components/homepage/Homepage";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import MenuItems from "./app/navbar/MenuItems";
+import About from './components/about/About';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
+import Experiences from './components/experiences/Experiences';
+
 function App() {
   return (
-    <div>
-    <div className="app-main" >
-        <NavBar/>
-        
+    <div className="app">
+      <div className="app-header">
+        <Header />
+      </div> 
+      <div className="app-homepage">
+        <Homepage />
       </div>
-      <Router>
-      <Switch>
-        <Route path="/"><Homepage/></Route>
-        <Route path="/projects"><Projects /></Route>
-      </Switch>
-    </Router>
+      <div className="app-footer">
+        <Footer />
+      </div>
     </div>
-    
   );
 }
 

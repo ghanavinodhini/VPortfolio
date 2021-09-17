@@ -1,43 +1,69 @@
 import React, {useState}from 'react'
 import "./Projects.css";
 import VinoPhoto from "../../images/vino_photo.png";
-import Hedera from './hedera/Hedera';
+import SchoolProjects from './schoolProjects/SchoolProjects';
+import { Element } from 'react-scroll';
+
 export default function Projects() {
-    const [isOpen, setisOpen] = useState(false);
-    function handleEvent() {
-        setisOpen(true);
-       
-       console.log("Hedera Open");
-       console.log({isOpen});
-    }
-    return (
-        <div className="projects">
-            <h4><u>Projects</u></h4>
-            <div className="projects__tab">
-                
-                <div className="projects__tile" onClick={handleEvent}>
-                    <h5>Hedera Helix</h5>
-                    <img src = {VinoPhoto}/>
-                    <p>
-                    Myself Ghana Vinodhini, freelance software developer working Android and ReactJs Projects.
-                    </p>
-                </div>
-                <div className="projects__tile">
-                    <h5>Hedera Helix</h5>
-                    <img src = {VinoPhoto}/>
-                    <p>
-                    Myself Ghana Vinodhini, freelance software developer working Android and ReactJs Projects.
-                    </p>
-                </div>
-                <div className="projects__tile">
-                    <h5>Hedera Helix</h5>
-                    <img src = {VinoPhoto}/>
-                    <p>
-                    Myself Ghana Vinodhini, freelance software developer working Android and ReactJs Projects.
-                    </p>
-                </div>
+    const school_projects = [
+        {
+            img:{VinoPhoto},
+            title:"Guess Colors-Quiz",
+            desc: "Kids game to find colors of fruits,flowers.",
+            link: "https://github.com/ghanavinodhini/QuizApplication"
+        },
+        {
+            img:{VinoPhoto},
+            title:"HomeClean",
+            desc: "Home Clean Android application developed for HederaHelix AB.",
+            link: "https://github.com/ghanavinodhini/HomeCleanApp"
+        },
+        {
+            img:{VinoPhoto},
+            title:"TicTacToe",
+            desc: "A game in Swift language to fill X and O aligned vertical or horizontal.",
+            link: "https://github.com/ghanavinodhini/TicTacSwiftApp"
+        },
+        {
+            img:{VinoPhoto},
+            title:"Shopping List",
+            desc: "An application developed in SwiftUI with Speech Recognition AI to dictate items list.",
+            link: "https://github.com/ghanavinodhini/ShoppingListApp"
+        },
+        {
+            img:{VinoPhoto},
+            title:"Doggy DayCare",
+            desc: "A ReactJS application using dogs daycare api to list the customers.",
+            link: "https://github.com/ghanavinodhini/DogCare"
+        },
+        {
+            img:{VinoPhoto},
+            title:"MovieShop",
+            desc: "A ReactJS application to shop movies and add in cart and favourites.",
+            link: "https://github.com/WALMIN/MovieShop"
+        },
+        {
+            img:{VinoPhoto},
+            title:"Books Finder",
+            desc: "A React Native application using open library api to find books by title and view book details",
+            link: "https://github.com/ghanavinodhini/BookFinderApp"
+        }
+
+    ]
+
+    return(
+        <Element className="projects" id="projects">
+            <h2>Projects</h2>
+            <p> A list of all projects developed in school using different technologies(Kotlin, Swift,SwiftUI,ReactJS,React Native)</p>
+            <div className="projectsContainer__projects">
+            {
+                school_projects.map((project,index)=>{
+                    return(
+                        <SchoolProjects key={index} img={project.img} title={project.title} desc={project.desc} link={project.link} />
+                    )
+                })
+            }
             </div>
-            
-        </div>
-    )
+        </Element>
+    );
 }
