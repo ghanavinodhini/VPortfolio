@@ -57,34 +57,7 @@ let timelineElements = [
         "Ensure quality of applications meets all requirements and track the defects.",
       date: "Sept 2006 - Jan 2010",
       icon: "work",
-    },
-    {
-        id: 7,
-        title: "Mobile Application Development",
-        location: "Stockholm, Sweden",
-        description:
-          "Course to develop applications for Android, iOS, Web",
-        date: "Sept 2020 - till date",
-        icon: "school",
-      },
-      {
-        id: 8,
-        title: "MBA Information Systems Management",
-        location: "Coimbatore, India",
-        description:
-          "Course to manage data in Information Technology",
-        date: "Sept 2009",
-        icon: "school",
-      },
-      {
-        id: 9,
-        title: "BSc Computer Technology",
-        location: "Coimbatore, India",
-        description:
-          "Course to design,develop programs for computer technology",
-        date: "Sept 2006",
-        icon: "school",
-      },
+    }
   ]
   
   export default timelineElements

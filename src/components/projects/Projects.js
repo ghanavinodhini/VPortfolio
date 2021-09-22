@@ -1,49 +1,56 @@
-import React, {useState}from 'react'
+import React from 'react'
 import "./Projects.css";
-import VinoPhoto from "../../images/vino_photo.png";
+import GuessColors from "../../images/GuessColors.png";
+import HomeClean from "../../images/HederaHelix.png";
+import TicTacToe from "../../images/TicTacToe.png";
+import ShoppingList from "../../images/ShoppingList.png";
+import DogCare from "../../images/DoggyCare.png";
+import MovieShop from "../../images/movielogo.png";
+import BookFinder from "../../images/BookFinder.png"; 
 import SchoolProjects from './schoolProjects/SchoolProjects';
 import { Element } from 'react-scroll';
+import { Movie } from '@material-ui/icons';
 
 export default function Projects() {
     const school_projects = [
         {
-            img:{VinoPhoto},
+            img: GuessColors,
             title:"Guess Colors-Quiz",
             desc: "Kids game to find colors of fruits,flowers.",
             link: "https://github.com/ghanavinodhini/QuizApplication"
         },
         {
-            img:{VinoPhoto},
+            img: HomeClean,
             title:"HomeClean",
             desc: "Home Clean Android application developed for HederaHelix AB.",
             link: "https://github.com/ghanavinodhini/HomeCleanApp"
         },
         {
-            img:{VinoPhoto},
+            img: TicTacToe,
             title:"TicTacToe",
             desc: "A game in Swift language to fill X and O aligned vertical or horizontal.",
             link: "https://github.com/ghanavinodhini/TicTacSwiftApp"
         },
         {
-            img:{VinoPhoto},
+            img: ShoppingList,
             title:"Shopping List",
             desc: "An application developed in SwiftUI with Speech Recognition AI to dictate items list.",
             link: "https://github.com/ghanavinodhini/ShoppingListApp"
         },
         {
-            img:{VinoPhoto},
+            img: DogCare,
             title:"Doggy DayCare",
             desc: "A ReactJS application using dogs daycare api to list the customers.",
             link: "https://github.com/ghanavinodhini/DogCare"
         },
         {
-            img:{VinoPhoto},
+            img: MovieShop,
             title:"MovieShop",
             desc: "A ReactJS application to shop movies and add in cart and favourites.",
             link: "https://github.com/WALMIN/MovieShop"
         },
         {
-            img:{VinoPhoto},
+            img: BookFinder,
             title:"Books Finder",
             desc: "A React Native application using open library api to find books by title and view book details",
             link: "https://github.com/ghanavinodhini/BookFinderApp"

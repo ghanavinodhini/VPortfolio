@@ -2,4 +2,42 @@
     width:100vw;
     height:calc(100vh-80px);
     scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+    background-color:beige;
 }
+
+.contact__container{
+    border: 1px solid blue;
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.contact__container > p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.contact__container > p > span{
+    color: red;
+}
+
+.contact__icons > a > button > span > .MuiSvgIcon-root{
+    color: blue;
+    font-size: 30px;
+}
+
+.contact__icons > a > button{
+    color: blue;
+}
+

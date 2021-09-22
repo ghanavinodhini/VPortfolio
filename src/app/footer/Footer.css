@@ -1,6 +1,11 @@
 .footer {
-    align-content: center;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.copyright{
+    background-color: gray;
+    padding:1 rem;
+    margin-top: 5 rem;
 }

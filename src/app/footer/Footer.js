@@ -4,8 +4,10 @@ export default function Footer() {
     return (
         <div className="footer">            
             <hr/>
-            <div className="footer__content">
-                <h1>Thanks!</h1>
+            <div className="copyright">
+                <div className="container">
+                <p>@ 2021 - Ghanavinodhini Chandrasekaran | Designed by Ghana</p>
+                </div>
             </div>
         </div>
     )
