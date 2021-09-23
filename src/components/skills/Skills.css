@@ -29,10 +29,10 @@
 }
 
 .skillContainer__slider > .MuiLinearProgress-colorPrimary{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(153, 149, 149);
 }
 
-.skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary{
+/* .skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary{
 background-color: tomato;
 }
 
@@ -54,5 +54,5 @@ background-color: tomato;
 
 .skillContainer__slider6 > div > .MuiLinearProgress-barColorPrimary{
     background-color: rgb(240, 98, 133);
-}
+} */
 

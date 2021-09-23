@@ -1,9 +1,9 @@
 .about{
     width:100vw;
-    height:calc(100vh-80px);
+    height:calc(100vh-60px);
     scroll-snap-align: start;
-    background-color: antiquewhite;
     display: flex;
+    margin-top: 60px;
 }
 
 .about .left{

@@ -60,7 +60,7 @@ export default function Projects() {
 
     return(
         <Element className="projects" id="projects">
-            <h2>Projects</h2>
+            <h2>PROJECTS</h2>
             <p> A list of all projects developed in school using different technologies(Kotlin, Swift,SwiftUI,ReactJS,React Native)</p>
             <div className="projectsContainer__projects">
             {

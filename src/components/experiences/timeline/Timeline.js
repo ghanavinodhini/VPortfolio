@@ -8,12 +8,12 @@ const Timeline = () => {
     let workIconStyles = { background: "#06D6A0" }
     return (
         <div>
-            <h1 className="title">EXPERIENCES</h1>
+            <h2 className="title">EXPERIENCES</h2>
             <VerticalTimeline>
             {TimelineElements.map(element => {
           return (
             <VerticalTimelineElement
-              key={element.key}
+              key={element.id}
               date={element.date}
               dateClassName="date"
               iconStyle={workIconStyles}

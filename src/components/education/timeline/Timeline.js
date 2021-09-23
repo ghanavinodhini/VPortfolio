@@ -8,7 +8,7 @@ const Timeline = () => {
     let schoolIconStyles = { background: "#f9c74f" }
     return (
         <div>
-            <h1 className="title">EDUCATION</h1>
+            <h2 className="title">EDUCATION</h2>
             <VerticalTimeline>
             {TimelineElements.map(element => {
           return (

@@ -7,11 +7,9 @@
     justify-content: center;
     margin: 200px 0 100px;
     align-items: center;
-    background-color:beige;
 }
 
 .contact__container{
-    border: 1px solid blue;
     width: 600px;
     height: fit-content;
     display: flex;

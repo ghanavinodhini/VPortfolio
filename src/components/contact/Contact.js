@@ -11,7 +11,6 @@ import './Contact.css';
             <div className="contact__container">
                 <p>Mobile : <span>+46 734836883</span></p>
                 <p>Email : <span>ghanacvino@gmail.com</span></p>
-                <p>GitHub :  <span>@ghanavinodhini</span></p>
             <div className="contact__icons">
                 <a href="https://www.linkedin.com/in/ghana-chandra-a46b6240/">
                     <IconButton>
