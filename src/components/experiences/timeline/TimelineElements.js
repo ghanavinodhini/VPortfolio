@@ -1,3 +1,5 @@
+import WorkIcon from "../../../images/work_icon.png";
+
 let timelineElements = [
     {
       id: 1,
@@ -7,7 +9,7 @@ let timelineElements = [
         "Design and develop MVP for Carelyo project using Reactjs",
       company: "Swedcon18 AB",
       date: "May 2021 - Jul 2021",
-      icon: "work",
+      icon: WorkIcon,
     },
     {
       id: 2,
@@ -17,7 +19,7 @@ let timelineElements = [
         "Design and develop android application for HomeCleaners using Kotlin",
       company: "HederaHelix AB",
       date: "Sept 2020 - Nov 2020",
-      icon: "work",
+      icon: WorkIcon,
     },
     {
       id: 3,
@@ -27,7 +29,7 @@ let timelineElements = [
         "Perform exploratory testing of EJBCA application.",
       company: "Primekey Solutions AB",
       date: "Feb 2020 - June 2020",
-      icon: "work",
+      icon: WorkIcon,
     },
     {
       id: 4,
@@ -37,7 +39,7 @@ let timelineElements = [
         "Ensure quality of web,mobile applications and track the defects",
       company: "ICU English Pvt.Ltd, Maathiyosi Pvt.Ltd",
       date: "Feb 2014 - Sept 2018",
-      icon: "work",
+      icon: WorkIcon,
     },
     {
       id: 5,
@@ -47,7 +49,7 @@ let timelineElements = [
         "Ensure quality of mobile application meets the requirements specifications",
       company: "US Tech Solutions",
       date: "Jul 2012 - Nov 2012",
-      icon: "work",
+      icon: WorkIcon,
     },
     {
       id: 6,
@@ -56,7 +58,7 @@ let timelineElements = [
       description:
         "Ensure quality of applications meets all requirements and track the defects.",
       date: "Sept 2006 - Jan 2010",
-      icon: "work",
+      icon: WorkIcon,
     }
   ]
   

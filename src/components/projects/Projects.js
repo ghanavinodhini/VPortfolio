@@ -9,7 +9,7 @@ import MovieShop from "../../images/movielogo.png";
 import BookFinder from "../../images/BookFinder.png"; 
 import SchoolProjects from './schoolProjects/SchoolProjects';
 import { Element } from 'react-scroll';
-import { Movie } from '@material-ui/icons';
+
 
 export default function Projects() {
     const school_projects = [

@@ -3,8 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import TimelineElements from './TimelineElements';
 import '../../experiences/timeline/Timeline.css';
-import SchoolIcon from "../../../images/school_icon.png";
-
 
 const Timeline = () => {
     let schoolIconStyles = { background: "#f9c74f" }
@@ -13,14 +11,13 @@ const Timeline = () => {
             <h1 className="title">EDUCATION</h1>
             <VerticalTimeline>
             {TimelineElements.map(element => {
-                let isSchoolIcon = element.icon === "school"
           return (
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
               dateClassName="date"
               iconStyle={schoolIconStyles}
-              //icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              icon = {<img src={element.icon} alt="" />}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}

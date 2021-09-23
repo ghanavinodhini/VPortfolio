@@ -1,3 +1,5 @@
+import SchoolIcon from "../../../images/school_icon.png";
+
 let timelineElements = [
     {
         id: 1,
@@ -6,7 +8,7 @@ let timelineElements = [
         description:
           "Course to develop applications for Android, iOS, Web",
         date: "Sept 2020 - till date",
-        icon: "school",
+        icon: SchoolIcon,
       },
       {
         id: 2,
@@ -15,7 +17,7 @@ let timelineElements = [
         description:
           "Course to manage data in Information Technology",
         date: "Sept 2009",
-        icon: "school",
+        icon: SchoolIcon,
       },
       {
         id: 3,
@@ -24,7 +26,7 @@ let timelineElements = [
         description:
           "Course to design,develop programs for computer technology",
         date: "Sept 2006",
-        icon: "school",
+        icon: SchoolIcon,
       }
   ]
   
