@@ -12,7 +12,7 @@ function About() {
         init(textRef.current,{
             showCursor:false,
             backDelay:1500,
-            strings:["Mobile Developer","QA Tester"],
+            strings:["Frontend Web/Mobile Developer","QA Tester"],
         });
     },[]);
 

@@ -20,7 +20,7 @@ function NavBar() {
               {MenuItems.map((item,index) => {
                 return (
               <li key={index}>
-                <Link className={item.cName} to={item.url} smooth={true} duration={500}>{item.title}</Link>
+                <Link className={item.cName} to={item.url} smooth={true} duration={500} onClick={()=>handleClick()}>{item.title}</Link>
               </li>
                 )
               })}
