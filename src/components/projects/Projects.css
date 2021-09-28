@@ -1,16 +1,19 @@
 .projects {  
-    text-align: center;   
     width:100vw;
     height:calc(100vh-80px);
-    scroll-snap-align: start;
+    scroll-snap-align: start; 
     display:flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center; 
     margin: 200px 0;
     align-items: center;
-     
 }
 
+.section{
+    justify-content: center;
+    align-items: center;
+}
 .projects > h1{
     padding-bottom: 15px;
 }
@@ -19,9 +22,48 @@
     padding-bottom: 20px;
 }
 
-.projectsContainer__projects{
+/* .projectsContainer__projects{
     display: flex;
     width: 60vw;
-    margin-top:5opx;
+    margin-top:50px;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+} */
+
+/* .projects > .MuiGrid-root > .projectsContainer__projects > .MuiGrid-container > .MuiGrid-spacing-xs-3{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
+.custom_tabs{
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.customTabs .customTabs_item{
+    padding : 0px !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    outline-width: 0px !important;
+}
+
+.customTabs .active{
+    color:coral;
+} */
+
+.custom_tabs{
+    padding-bottom: 50px;
+}
+
+.customCard{
+    margin: 20px;
+    align-items: center;
+}
+
+
+

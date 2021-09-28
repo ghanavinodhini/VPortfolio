@@ -2,20 +2,19 @@ import React,{useState} from 'react'
 import "./SchoolProjects.css";
 
 
-export default function SchoolProjects({img,title,desc,link}) { 
+export default function SchoolProjects(props) { 
     const [show,setShow] = useState(false);   
     return (
-
-        <a href={link} className="project__link">
+        <a href={props.link} className="project__link">
             <div className="project" onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
             {
                 show ? (
                     <div className="project__content">
-                        <h4>{title}</h4>
-                        <p>{desc}</p>
+                        <h4>{props.title}</h4>
+                        <p>{props.desc}</p>
                     </div>
                 )   : (
-                    <img src={img} alt="" />
+                    <img src={props.img} alt="" />
                     // <img src={require('../../images/' + {img} + '.png')} alt="" />
                 )
             }
