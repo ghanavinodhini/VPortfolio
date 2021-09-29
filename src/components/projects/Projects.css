@@ -61,9 +61,25 @@
 }
 
 .customCard{
-    margin: 20px;
-    align-items: center;
+    margin: 30px;
 }
 
+.projectDialog_image{
+    height:350px;
+}
+
+.projectDialog_title{
+    background-color: cadetblue;
+}
+
+.projectDialog_desc{
+    font-size: 1rem;
+}
+
+.projectDialog_gitLink{
+    margin-left: 25px;
+    font-style: italic;
+    font-size: 0.5rem;
+}
 
 

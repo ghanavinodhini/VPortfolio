@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Card, CardMedia, CardContent,CardActionArea, Grid, Grow, Typography } from '@material-ui/core';
+import { Card, Dialog, DialogContent,DialogTitle, Grid, Grow, DialogActions, Typography, DialogContentText } from '@material-ui/core';
 import {Tabs} from '@material-ui/core';
 import { Tab } from '@material-ui/core';
 import "./Projects.css";
@@ -9,7 +9,8 @@ import TicTacToe from "../../images/TicTacToe.png";
 import ShoppingList from "../../images/ShoppingList.png";
 import DogCare from "../../images/DoggyCare.png";
 import MovieShop from "../../images/movielogo.png";
-import BookFinder from "../../images/BookFinder.png"; 
+import BookFinder from "../../images/BookFinder.png";
+import Carelyo from  "../../images/Carelyo.png";
 import SchoolProjects from './schoolProjects/SchoolProjects';
 import { Element } from 'react-scroll';
 
@@ -20,14 +21,14 @@ export default function Projects() {
             tag: "school Projects",
             img: GuessColors,
             title:"Guess Colors-Quiz",
-            desc: "Kids game to find colors of fruits,flowers.",
+            desc: "A game in Kotlin language to find colors of fruits,vegetables,flowers.",
             link: "https://github.com/ghanavinodhini/QuizApplication"
         },
         {
             tag: "client Projects",
             img: HomeClean,
             title:"HomeClean",
-            desc: "Home Clean Android application developed for HederaHelix AB.",
+            desc: "An Android application developed in Kotlin language for HederaHelix AB.",
             link: "https://github.com/ghanavinodhini/HomeCleanApp"
         },
         {
@@ -41,7 +42,7 @@ export default function Projects() {
             tag: "school Projects",
             img: ShoppingList,
             title:"Shopping List",
-            desc: "An application developed in SwiftUI with Speech Recognition AI to dictate items list.",
+            desc: "An application developed in SwiftUI with Speech Recognition AI to add or voiceover shopping items.",
             link: "https://github.com/ghanavinodhini/ShoppingListApp"
         },
         {
@@ -67,15 +68,18 @@ export default function Projects() {
         },
         {
             tag: "client Projects",
-            img: BookFinder,
+            img: Carelyo,
             title:"Carelyo",
-            desc: "A ReactJS web application used in Nigera for digital healthcare system",
-            link: "https://github.com/ghanavinodhini/BookFinderApp"
+            desc: "A ReactJS web application MVP being developed for underserved people in Nigera for digital healthcare system",
+            link: ""
         }
 
     ]
 
     const [tabValue,setTabValue] = useState('All');
+
+    const [projectDialog,setProjectDialog] = useState(false);
+
     
     return(
         <Element className="projects" id="projects">
@@ -111,17 +115,29 @@ export default function Projects() {
                             
                                 <Grid Item align="center">
                                     <Grow in timeout={1000}>
-                                    <Card className="customCard">
+                                    <Card className="customCard" onClick={()=>setProjectDialog(project)}>
                                     <SchoolProjects key={index} img={project.img} title={project.title} desc={project.desc} link={project.link} />
                                     </Card>
                                     </Grow>
                                 </Grid>
                             ) : null
                             }
-                        </>    
+                        </>
                         )}
                     </Grid>
                 </Grid>
+
+                <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)}>
+                    <DialogTitle className="projectDialog_title">{projectDialog.title}</DialogTitle>
+                    <img src={projectDialog.img} alt="" className="projectDialog_image"/>
+                    <DialogContent className="projectDialog_desc">
+                        {projectDialog.desc}
+                    </DialogContent>
+                    <DialogContentText className="projectDialog_gitLink">
+                        Github:{projectDialog.link ? (<a href = {projectDialog.link} target="_blank"> {projectDialog.link}</a>) :  "N/A"}
+                    </DialogContentText>
+                </Dialog>
+
             </Grid>
            {/*  <h2>PROJECTS</h2>
             <p> A list of all projects developed in school using different technologies(Kotlin, Swift,SwiftUI,ReactJS,React Native)</p>
