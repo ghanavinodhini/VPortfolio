@@ -3,7 +3,7 @@
     height:calc(100vh-60px);
     scroll-snap-align: start; 
     display: flex;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .about .left{
@@ -17,14 +17,20 @@
 }
 
 .about .imgContainer{
-    width: 700px;
-    height: 700px;
+    width: 300px;
+    height: 300px;
     background-color: crimson;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     float: right;
+}
+
+.about .myImage{
+    width: 290px;
+    height:290px;
+    border-radius: 50%;
 }
 
 img{
@@ -34,7 +40,8 @@ img{
 .wrapper{
     width: 50%;
     height: 100%;
-    padding-left: 30px;
+    padding-left: 10px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,11 +66,9 @@ img{
 }
 
 .download__cv{
-    position: absolute;
-    bottom: 10px;
+    margin-bottom: 100px;
     left: 50%;
-    color: white;
-    background-color: crimson;
+    background-color: rgb(73, 20, 220);
     font-size: 14px;
     padding: 10px 30px;
     font-weight: bold;
@@ -75,18 +80,25 @@ button > a{
     border: none;
     border-radius: 2px;
     outline: none;
+    color: white;
 }
 
 @media screen and (max-width:960px) {
     .about .imgContainer{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background-color: crimson;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         float: right;
+    }
+
+    .about .myImage{
+        width: 290px;
+        height:290px;
+        border-radius: 50%;
     }
     
     img{
@@ -116,11 +128,10 @@ button > a{
         font-size: 20px;
     }
     .download__cv{
-        position: absolute;
-        bottom: 350px;
+        margin-bottom: 100px;
         left: 50%;
         color: white;
-        background-color: crimson;
+        background-color: rgb(73, 20, 220);
         font-size: 14px;
         padding: 10px 30px;
         font-weight: bold;
@@ -139,6 +150,12 @@ button > a{
         align-items: center;
         justify-content: center;
         float: right;
+    }
+
+    .about .myImage{
+        width: 190px;
+        height:190px;
+        border-radius: 50%;
     }
     
     img{
@@ -168,11 +185,10 @@ button > a{
         font-size: 10px;
     }
     .download__cv{
-        position: absolute;
-        bottom: 450px;
+        margin-bottom: 100px;
         left: 50%;
         color: white;
-        background-color: crimson;
+        background-color: rgb(73, 20, 220);
         font-size: 14px;
         padding: 10px 30px;
         font-weight: bold;

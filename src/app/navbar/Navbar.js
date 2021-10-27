@@ -12,7 +12,8 @@ function NavBar() {
 
   return (
         <nav className="NavbarItems">
-          <h1 className="navbar-logo">Develop<span>er</span> <i className="fab fa-react"></i></h1>
+          <h1 className="navbar-logo">Developer</h1>
+          {/*<span>er</span> <i className="fab fa-react"></i>*/}
           <div className="menu-icon" onClick={()=>handleClick()}>
             <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div>

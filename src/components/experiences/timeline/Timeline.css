@@ -28,11 +28,26 @@
     margin: 1.5em 0 2em 0;
   }
 
+  @media screen and (max-width:739px) {
+    .vertical-timeline-element-icon > img{
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+  }
+
   @media only screen and (max-width: 1700px) {
     .vertical-timeline-element-date {
       display: block !important;
       float: none !important;
       color: rgb(44, 44, 44);
       margin-top: 1.5em;
+    }
+    .vertical-timeline-element-icon > img{
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-left: 10px;
     }
   }
