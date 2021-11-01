@@ -80,7 +80,7 @@
         position: relative;
     }*/
     .NavbarItems{
-        background: blue;
+        background: rgb(25, 25, 148);
         height:60px;
         display: flex;
         justify-content: center;

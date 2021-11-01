@@ -27,7 +27,8 @@
 }
 
 .contact__container > p > span{
-    color: red;
+    color: black;
+    font-weight: bolder;
 }
 
 .contact__icons > a > button > span > .MuiSvgIcon-root{

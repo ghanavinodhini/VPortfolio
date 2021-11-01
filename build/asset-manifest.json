@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/VPortfolio/static/css/main.551944fa.chunk.css",
+    "main.js": "/VPortfolio/static/js/main.34b25300.chunk.js",
+    "main.js.map": "/VPortfolio/static/js/main.34b25300.chunk.js.map",
+    "runtime-main.js": "/VPortfolio/static/js/runtime-main.cab270c1.js",
+    "runtime-main.js.map": "/VPortfolio/static/js/runtime-main.cab270c1.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/VPortfolio/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.70758de8.chunk.js": "/VPortfolio/static/js/2.70758de8.chunk.js",
+    "static/js/2.70758de8.chunk.js.map": "/VPortfolio/static/js/2.70758de8.chunk.js.map",
+    "index.html": "/VPortfolio/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/VPortfolio/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.551944fa.chunk.css.map": "/VPortfolio/static/css/main.551944fa.chunk.css.map",
+    "static/js/2.70758de8.chunk.js.LICENSE.txt": "/VPortfolio/static/js/2.70758de8.chunk.js.LICENSE.txt",
+    "static/media/BookFinder.d07875a7.png": "/VPortfolio/static/media/BookFinder.d07875a7.png",
+    "static/media/Carelyo.fa3b0100.png": "/VPortfolio/static/media/Carelyo.fa3b0100.png",
+    "static/media/DoggyCare.79d611fd.png": "/VPortfolio/static/media/DoggyCare.79d611fd.png",
+    "static/media/GuessColors.4923e2e3.png": "/VPortfolio/static/media/GuessColors.4923e2e3.png",
+    "static/media/ShoppingList.1b3a7450.png": "/VPortfolio/static/media/ShoppingList.1b3a7450.png",
+    "static/media/TicTacToe.532a3e09.png": "/VPortfolio/static/media/TicTacToe.532a3e09.png",
+    "static/media/school_icon.67c410b8.png": "/VPortfolio/static/media/school_icon.67c410b8.png",
+    "static/media/vino_photo.4eaa2348.png": "/VPortfolio/static/media/vino_photo.4eaa2348.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cab270c1.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.70758de8.chunk.js",
+    "static/css/main.551944fa.chunk.css",
+    "static/js/main.34b25300.chunk.js"
+  ]
+}

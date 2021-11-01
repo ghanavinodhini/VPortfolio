@@ -26,7 +26,7 @@ function About() {
                 <div className="wrapper">
                     <h2> Hi, I am</h2>
                     <h1>Ghanavinodhini Chandrasekaran</h1>
-                    <h3> Application Developer </h3>
+                    <h4> Application Developer </h4>
                         {/* <span ref={textRef}></span> */}
                 <div className="aboutMe__text">
                     <p>I am an experienced software professional with about 5 years of experience in IT industry.  
